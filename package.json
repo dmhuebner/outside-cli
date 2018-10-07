@@ -1,0 +1,30 @@
+{
+  "name": "outside-cli",
+  "version": "1.0.0",
+  "description": "CLI for checking the weather",
+  "main": "app.js",
+  "bin": {
+    "outside": "bin/outside"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmhuebner/outside-cli.git"
+  },
+  "keywords": [
+    "cli",
+    "weather"
+  ],
+  "author": "David Huebner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dmhuebner/outside-cli/issues"
+  },
+  "homepage": "https://github.com/dmhuebner/outside-cli#readme",
+  "dependencies": {
+    "minimist": "^1.2.0"
+  }
+}
